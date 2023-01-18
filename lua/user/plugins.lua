@@ -25,6 +25,41 @@ return packer.startup(function(use)
   use "lewis6991/impatient.nvim" -- Speeds up startup time of Neovim
   use "goolord/alpha-nvim" -- This is the welcome window when starting nvim
   use "folke/which-key.nvim" -- Helpful popup window to remember keybinds
+  use "nvim-treesitter/nvim-treesitter" -- Vim treesitter a better syntax highlighter
+  use "windwp/nvim-ts-autotag" -- Autotags for react
+  use "windwp/nvim-autopairs" -- Auto close brackets
+  use "akinsho/bufferline.nvim" -- Tabs
+
+  -- Lsp Configs
+  use "neovim/nvim-lspconfig"
+  use "onsails/lspkind-nvim"
+  use "L3MON4D3/LuaSnip"
+  use "hrsh7th/cmp-nvim-lsp"
+  use "hrsh7th/cmp-buffer"
+  use "hrsh7th/nvim-cmp"
+
+  -- Lsp Saga
+  use({
+    "glepnir/lspsaga.nvim",
+    branch = "main",
+    config = function()
+      require('lspsaga').setup({})
+    end,
+  })
+
+  -- Lualine
+  use {
+    'nvim-lualine/lualine.nvim',
+    requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+  }
+
+  -- Telescope
+  use {
+    'nvim-telescope/telescope.nvim'
+  }
+  use {
+    'nvim-telescope/telescope-file-browser.nvim'
+  }
 
   -- Colorschemes
   use "morhetz/gruvbox" -- My flavor of the moment 
