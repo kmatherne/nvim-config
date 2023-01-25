@@ -15,7 +15,8 @@ require "user.autopairs"
 require "user.telescope"
 require "user.bufferline"
 require "user.lspsaga"
-
+require "user.nvimtree"
+require "user.toggleterm"
 -- TODO: Add prettier and null-ls
 
 -- Might want: dinhuy258/git.nvim, williamboman/mason.nvim

@@ -29,6 +29,8 @@ return packer.startup(function(use)
   use "windwp/nvim-ts-autotag" -- Autotags for react
   use "windwp/nvim-autopairs" -- Auto close brackets
   use "akinsho/bufferline.nvim" -- Tabs
+  use "nvim-tree/nvim-tree.lua" -- Normal file tree
+  use "akinsho/toggleterm.nvim" -- Popup terminal
 
   -- Lsp Configs
   use "neovim/nvim-lspconfig"
