@@ -21,7 +21,7 @@ return packer.startup(function(use)
   use "wbthomason/packer.nvim" -- Have packer manage itself
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
-  use "kyazdani42/nvim-web-devicons" -- Needed for displaying icons with nvim tree
+  use "nvim-tree/nvim-web-devicons"
   use "lewis6991/impatient.nvim" -- Speeds up startup time of Neovim
   use "goolord/alpha-nvim" -- This is the welcome window when starting nvim
   use "folke/which-key.nvim" -- Helpful popup window to remember keybinds

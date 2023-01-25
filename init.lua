@@ -15,6 +15,7 @@ require "user.autopairs"
 require "user.telescope"
 require "user.bufferline"
 require "user.lspsaga"
+require "user.devicons"
 
 -- TODO: Add prettier and null-ls
 
