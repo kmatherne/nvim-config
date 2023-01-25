@@ -16,6 +16,8 @@ require "user.telescope"
 require "user.bufferline"
 require "user.lspsaga"
 require "user.devicons"
+require "user.nvimtree"
+require "user.toggleterm"
 
 -- TODO: Add prettier and null-ls
 
