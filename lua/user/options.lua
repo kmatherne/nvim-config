@@ -33,6 +33,8 @@ local options = {
   scrolloff = 8,                           -- is one of my fav
   sidescrolloff = 8,
   guifont = "monospace:h17",               -- the font used in graphical neovim applications
+  foldmethod = 'indent',
+  foldlevel = 99,                          -- this defaults files to open without anything folded
 }
 
 vim.opt.shortmess:append "c"
